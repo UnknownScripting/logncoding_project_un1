@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: "Roboto", sans-serif;
 }
 
 .hero{
@@ -41,7 +42,6 @@ body{
 	top: -16px;
 	font-size: 17px;
 	color: white;
-	font-family: "Roboto", sans-serif;
 	transition: 0.3s;
 }
 
@@ -59,7 +59,6 @@ body{
 	padding: 8px 20px;
 	text-decoration: none;
 	border-radius: 5px;
-	font-family: "Roboto", sans-serif;
 	transition: 0.3s;
 	font-size: 16px;
 	box-shadow: 0 4px 8px rgba(0,0,0,0.5);
@@ -82,9 +81,26 @@ body{
 	border-radius: 10px;
 	background-color: white;
 	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-	font-family: "Roboto", sans-serif;
 }
 
 .about_section{
 	text-align: center;
+}
+
+.demo{
+	width: 800px;
+	margin: 30px auto;
+	padding: 30px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.demo h2{
+	font-size: 35px;
+	margin-left: 10px;
+}
+
+.demo p{
+	margin-left: 10px;
 }
